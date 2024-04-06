@@ -1,0 +1,289 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex ;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+a:link{
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+}
+
+a:active{
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+}
+
+a:hover{
+  color: rgb(243, 243, 243);
+  text-decoration: none;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  background-color: #FAF9F6;
+  padding: 16px 32px;
+  border-bottom: 5px solid rgb(36,54,92);
+}
+
+.menu{
+  display: none;
+  flex: 1 1 0%;
+  justify-self: flex-end;
+  margin: 0 -16px;
+}
+
+.menu a{
+  color: rgb(36,54,92);
+  margin: 0 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.4s;
+  padding: 8px 16px;
+  border-radius: 99px;
+}
+
+.menu a.is-acticve, .menu a:hover{
+  background-color: rgb(36,54,92);
+    color: #FFF;
+}
+
+@media (min-width: 768px) {
+  .menu {
+      display: flex;
+  }
+}
+
+.overall{
+  position: absolute;
+  height: 1400px;
+  
+}
+
+.wel{
+  bottom: -120px;
+  position: relative;
+  background-color: #060038bb;
+  border-top: 5px solid red;
+  width: 500px;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-bottom-right-radius: 50px;
+}
+
+.content{
+  z-index: 2;
+  left: 350px;
+  bottom: -200px;
+  width: 1200px;
+  height: 400px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(36, 54, 92);
+  border-top: 5px solid #060038bb;
+  color: rgb(0, 0, 0);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid rgb(241, 14, 14);
+  border-bottom: 5px solid rgb(241, 14, 14);
+  border-left:  5px solid rgb(241, 14, 14);
+  border-right:  5px solid rgb(241, 14, 14);
+}
+
+.content h1 ,h2 ,h3, h4  {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(255, 255, 255);
+}
+
+.program{
+  z-index: 2;
+  left: 350px;
+  bottom: -300px;
+  width: 1300px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  background-color: #ffffffbb;
+  border-top: 5px solid #f31818bb;
+  
+}
+
+.program  {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+.content2{
+  z-index: 2;
+  left: 350px;
+  bottom: -300px;
+  width: 1200px;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(36, 54, 92);
+  color: rgb(255, 255, 255);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid rgb(241, 14, 14);
+  border-bottom: 5px solid rgb(241, 14, 14);
+  border-left:  5px solid rgb(241, 14, 14);
+  border-right:  5px solid rgb(241, 14, 14);
+}
+
+.content2 h1, h2, h3, h4 {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(255, 255, 255);
+}
+
+.content3 h1, h2, h3 {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.prg{
+   text-align: left;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.content3{
+  z-index: 2;
+  left: 350px;
+  bottom: -400px;
+  width: 1200px;
+  height: 550px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(36, 54, 92);
+  border-top: 5px solid #060038bb;
+  color: rgb(255, 255, 255);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid rgb(241, 14, 14);
+  border-bottom: 5px solid rgb(241, 14, 14);
+  border-left:  5px solid rgb(241, 14, 14);
+  border-right:  5px solid rgb(241, 14, 14);
+}
+
+.content4{
+  z-index: 2;
+  left: 350px;
+  bottom: -500px;
+  width: 1200px;
+  height: 550px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(36, 54, 92);
+  border-top: 5px solid #060038bb;
+  color: rgb(255, 255, 255);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid rgb(241, 14, 14);
+  border-bottom: 5px solid rgb(241, 14, 14);
+  border-left:  5px solid rgb(241, 14, 14);
+  border-right:  5px solid rgb(241, 14, 14);
+}
+
+.content4 h1, h2, h3  {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+.content5{
+  z-index: 2;
+  left: 350px;
+  bottom: -600px;
+  width: 1200px;
+  height: 550px;
+  text-align: center;
+  position: relative;
+  background-color: rgb(36, 54, 92);
+  border-top: 5px solid #060038bb;
+  color: rgb(255, 255, 255);
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top: 5px solid rgb(241, 14, 14);
+  border-bottom: 5px solid rgb(241, 14, 14);
+  border-left:  5px solid rgb(241, 14, 14);
+  border-right:  5px solid rgb(241, 14, 14);
+}
+
+.content5 h1, h2, h3 {
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(255, 255, 255);
+}
+
+html{
+bottom: -100vh;
+}
+
+.photo{
+  position: absolute; 
+  background-image: linear-gradient(#3b29e2,#f1f1f1,#f44336);
+}
+
+.footer-container {
+  max-width: 1903px;
+  margin: 0 auto;
+  display: flex ;
+  position: relative;
+  z-index: 99;
+  background-color: #FAF9F6;
+  padding: 16px 32px;
+  border-top: 5px solid rgb(36,54,92);
+  top: 100vh;
+}
+
+.footer-container img {
+  float: left;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  margin-left: 17%;
+}
+
+.footer-container p {
+  color: rgb(36,54,92);
+  font-size: 12px;
+  display: inline-block;
+}
+
+  
